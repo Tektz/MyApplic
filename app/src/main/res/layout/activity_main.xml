@@ -15,7 +15,7 @@
         android:id="@+id/fragment_place"
         android:name="com.masoud.myapplic.MainFragment"
         android:layout_width="match_parent"
-        android:layout_height="360dp"
+        android:layout_height="350dp"
         tools:layout_editor_absoluteX="180dp"
         tools:layout_editor_absoluteY="692dp"
       />
@@ -26,7 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"
         android:layout_below="@+id/fragment_place"
         android:paddingTop="10dp">
     <ImageButton
@@ -37,7 +36,7 @@
         android:contentDescription="Make Up"
         android:layout_marginLeft="65dp"
         android:layout_marginRight="30dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/im1" />
 
     <ImageButton
         android:id="@+id/iB2"
@@ -46,7 +45,7 @@
         android:contextClickable="true"
         android:contentDescription="Live"
         android:layout_marginRight="30dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/im2" />
 
     <ImageButton
         android:id="@+id/iB3"
@@ -55,7 +54,7 @@
         android:contextClickable="true"
         android:contentDescription="trial"
         android:layout_marginRight="30dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/im3" />
 
     <ImageButton
         android:id="@+id/iB4"
@@ -63,7 +62,7 @@
         android:layout_height="42dp"
         android:contextClickable="true"
         android:contentDescription="Expert"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/im4" />
     </LinearLayout>
 
     <LinearLayout
@@ -117,7 +116,7 @@
         <ImageView
             android:layout_width="94dp"
             android:layout_height="74dp"
-            android:src="@drawable/picha"
+            android:src="@drawable/im4"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="525dp" />
 
@@ -137,7 +136,7 @@
         <ImageView
             android:layout_width="94dp"
             android:layout_height="74dp"
-            android:src="@drawable/picha"
+            android:src="@drawable/im3"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="525dp" />
 

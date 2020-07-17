@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhite"
     tools:context=".liveFragment">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,7 +32,16 @@
             android:layout_marginTop="0dp"
             android:src="@drawable/im2"
             android:layout_below="@+id/linearLayout"
-
+            />
+        <TextView
+            android:id="@+id/c5_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIVE\nAll live broadcast goes here. Do not miss a thing.."
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:layout_below="@id/imageView"
+            android:textSize="20sp"
             />
     </RelativeLayout>
 </FrameLayout>

@@ -31,7 +31,16 @@
             android:layout_marginTop="0dp"
             android:src="@drawable/sam"
             android:layout_below="@+id/linearLayout"
-
+            />
+        <TextView
+            android:id="@+id/c3_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOME\nThis is the Fragments and Layout Example App. Stay tune for new features to come soon"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:layout_below="@id/imageView"
+            android:textSize="20sp"
             />
     </RelativeLayout>
 

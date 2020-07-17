@@ -32,7 +32,16 @@
             android:layout_marginTop="0dp"
             android:src="@drawable/im1"
             android:layout_below="@+id/linearLayout"
-
+            />
+        <TextView
+            android:id="@+id/c4_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAKE UP\nGirls!! here are your things, stay classy and health."
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:layout_below="@id/imageView"
+            android:textSize="20sp"
             />
     </RelativeLayout>
 

@@ -33,6 +33,16 @@
         android:src="@drawable/im4"
         android:layout_below="@+id/linearLayout"
         />
+        <TextView
+            android:id="@+id/c1_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXPERT\nExperties are the most valuable people on Earth."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/imageView"
+            />
     </RelativeLayout>
 
 </FrameLayout>
